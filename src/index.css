@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --midnight-purple: #7029AB;
+  --electric-pink: #F529B9;
+  --neon-lime: #B4E61D;
+  --icy-white: #FFFFFF;
+  --sauce-red: #E63347;
+  --carbon-black: #1A1A1A;
+  --dark-bg: #0f0f0f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Clash Display', sans-serif;
+  background-color: var(--dark-bg);
+  color: var(--icy-white);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--dark-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--midnight-purple);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--electric-pink);
+}
